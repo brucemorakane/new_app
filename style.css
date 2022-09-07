@@ -1,0 +1,12 @@
+.body{
+    background-color: white;
+    align-items: center;
+    color: aliceblue;
+}
+
+.image.png{
+    width: auto;
+    color: white;
+    background-color: oldlace;
+}
+
