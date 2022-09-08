@@ -15,5 +15,9 @@ function button() {
 }
 
 function addclick() {
+    if (button) {
+        return
     
+    } false
+    return
 }
