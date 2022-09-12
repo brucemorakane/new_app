@@ -1,29 +1,25 @@
 
 var button = "add cart"
 var addbutton = "addbutton"
-var name = "name"
+var name = []
 
 
 document.getElementById('add cart')
-.innerHTML = button
+.innerHTML =  name
 
 function button() {
-    for (let button = 0; button < array.length; button++) {
-        const element = array[button];
+    for (let  name = 0;  name < array.length;  name++) {
+        const element = array[ name];
         
     }
 }
 
 function addclick() {
-    if (button) {
+    if ( name) {
         return
     
     } false
     return
-}
-
-function calculate() {
-    
 }
 
 allScreen()
