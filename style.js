@@ -17,10 +17,7 @@ document.getElementById('addlist')
 .innerHTML =  name
 
 function button() {
-    for (let  name = 0;  name < array.length;  name++) {
-        const element = array[ name];
-        
-    }
+    
 }
 
 allScreen()
