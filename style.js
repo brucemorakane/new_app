@@ -22,3 +22,8 @@ function addclick() {
     return
 }
 
+function calculate() {
+    
+}
+
+allScreen()
