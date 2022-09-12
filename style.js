@@ -4,20 +4,27 @@ var addbutton = "addbutton"
 var addlist = "addlist"
 
 
-var name = []
+var totalAll= []
 
 
-document.getElementById('add cart')
-.innerHTML =  name
+document.getElementById('addcart')
+.innerHTML = totalAll
 
 document.getElementById('addbutton')
-.innerHTML = name 
+.innerHTML = totalAll
 
 document.getElementById('addlist')
-.innerHTML =  name
+.innerHTML =  totalAll
 
 function button() {
-    
+    const dataVar = document.getElementById('addbutton').value;
+    totalAll.push(dataVar);
+
+    addbutton.innerHTML = totalAll.length
+
+    document.getElementById('addcart').innerHTML = totalAll
+
+    document.getElementById('addlist').innerHTML = totalAll.length
 }
 
 allScreen()
