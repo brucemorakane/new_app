@@ -1,7 +1,6 @@
 .body{
-    background-color: white;
+    background-color: rgb(192, 56, 56);
     align-items: center;
-    color: aliceblue;
 }
 
 .image.png{
@@ -11,6 +10,8 @@
 }
 
 .button{
-    background-color: blue;
     color: aqua;
+    padding: auto;
+    
 }
+

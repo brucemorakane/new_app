@@ -16,9 +16,10 @@ document.getElementById('addbutton')
 document.getElementById('addlist')
 .innerHTML =  totalAll
 
-function button() {
-    const dataVar = document.getElementById('addbutton').value;
-    totalAll.push(dataVar);
+// this is remind the function
+function addbutton() {
+    var addlist = document.getElementById('addbutton').value;
+    totalAll.push(addlist);
 
     addbutton.innerHTML = totalAll.length
 
@@ -26,5 +27,6 @@ function button() {
 
     document.getElementById('addlist').innerHTML = totalAll.length
 }
+
 
 allScreen()
